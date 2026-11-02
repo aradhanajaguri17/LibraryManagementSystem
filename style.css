@@ -1,0 +1,7 @@
+body{font-family:Arial,sans-serif;margin:0;background:#f3f6fb;color:#172033}
+header{background:#173b68;color:white;padding:18px 5%;}nav a{color:white;margin-right:18px;text-decoration:none;font-weight:bold}
+main{max-width:1100px;margin:24px auto;padding:0 18px}.panel{background:white;padding:20px;border-radius:10px;margin:16px 0;box-shadow:0 2px 8px #0001}
+.cards{display:flex;gap:14px;flex-wrap:wrap}.card{background:#eaf1fb;padding:18px;border-radius:8px;min-width:150px}
+input,select,button{padding:9px;margin:4px;border:1px solid #bdc8d8;border-radius:5px}button{background:#1c5d9c;color:white;cursor:pointer}
+table{width:100%;border-collapse:collapse;background:white}th,td{text-align:left;padding:10px;border-bottom:1px solid #e1e6ef}th{background:#eaf1fb}
+small{color:#586579}.message{padding:10px;background:#e3f7e8;border-radius:6px}
