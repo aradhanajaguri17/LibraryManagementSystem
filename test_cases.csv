@@ -1,0 +1,17 @@
+Test ID,Area,Test action,Expected result,Status to record
+TC01,Database,Run schema SQL,TABLES and sequences created,Pending execution
+TC02,Database,Compile library_pkg,Package body valid,Pending execution
+TC03,Books,Open /books,Seed books listed,Pending execution
+TC04,Books,Search for Java,Matching title/author displayed,Pending execution
+TC05,Books,Add a valid book,Book appears and availability equals copies,Pending execution
+TC06,Books,Submit blank title,Request rejected with HTTP 400,Pending execution
+TC07,Members,Register valid member,Member appears in list,Pending execution
+TC08,Members,Register duplicate email,Unique constraint rejects duplicate,Pending execution
+TC09,Loans,Borrow valid book/member,Loan created and available copies decremented by one,Pending execution
+TC10,Loans,Borrow nonexistent member,PL/SQL error; no loan created,Pending execution
+TC11,Loans,Borrow nonexistent book,PL/SQL error; no loan created,Pending execution
+TC12,Loans,Borrow when availability is zero,PL/SQL error; no negative stock,Pending execution
+TC13,Loans,Return active loan,Status becomes RETURNED; available copies incremented,Pending execution
+TC14,Loans,Return same loan twice,PL/SQL error; inventory not incremented twice,Pending execution
+TC15,Dashboard,Open /home,Counts match SQL aggregate queries,Pending execution
+TC16,Security,Search with SQL-looking text,Input treated as data through PreparedStatement,Pending execution
